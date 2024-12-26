@@ -45,3 +45,13 @@ export const Archived = {
     },
   },
 };
+
+// export const Error = {
+//   args: {
+//     task: {
+//       id: "1",
+//       title: "Test Task",
+//       state: "TASK_ERROR",
+//     },
+//   },
+// };
