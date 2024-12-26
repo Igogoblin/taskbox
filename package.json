@@ -14,8 +14,11 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@base2/pretty-print-object": "^1.0.2",
+    "@reduxjs/toolkit": "^2.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0"
   },
   "scripts": {
     "dev": "vite",
@@ -26,27 +29,28 @@
     "init-msw": "msw init public/"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "3",
     "@storybook/addon-a11y": "^8.4.7",
-    "@storybook/addon-essentials": "^8.3.2",
-    "@storybook/addon-interactions": "^8.3.2",
-    "@storybook/addon-links": "^8.3.2",
-    "@storybook/blocks": "^8.3.2",
-    "@storybook/react": "^8.3.2",
-    "@storybook/react-vite": "^8.3.2",
-    "@storybook/test": "^8.3.2",
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6",
-    "eslint-plugin-storybook": "^0.8.0",
-    "msw": "^2.3.0",
-    "msw-storybook-addon": "^2.0.3",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-links": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-storybook": "^0.11.1",
+    "msw": "^2.7.0",
+    "msw-storybook-addon": "^2.0.4",
     "prop-types": "^15.8.1",
-    "storybook": "^8.3.2",
-    "vite": "^5.2.0"
+    "storybook": "^8.4.7",
+    "vite": "^6.0.6"
   },
   "resolutions": {
     "jackspeak": "2.1.1"
